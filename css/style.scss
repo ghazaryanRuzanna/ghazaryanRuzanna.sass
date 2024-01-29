@@ -1,0 +1,243 @@
+$padd:20px;
+$bg:#364037;
+$bgcolor:#986c43;
+$margen:15px 0;
+header {
+    #myVideo {
+        background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 90vh;
+    }
+    nav {
+        background-color: $bg !important;
+        padding: $padd !important;
+        ul {
+            li {
+                a {
+                    color: white !important;
+                }
+            }
+        }
+    }
+    .headerDiv {
+        background-color: $bgcolor;
+        padding: $padd;
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 79px;
+        }
+        @media only screen and (max-width:1400px) {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        @media only screen and (max-width:900px) {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+// .sec1------------------------------------------------------
+.sec1 {
+    padding: $padd;
+    color: white;
+    .sec1Div {
+        background-color: $bg;
+        padding: 40px;
+        position: relative;
+        top: -100px;
+        img {
+            width: 100%;
+        }
+    }
+    .textdiv{
+
+    font-size: 16px;
+    h4 {
+        color: white;
+        &:hover {
+            color: $bgcolor;
+        }
+    }
+    h3 {
+        color: white;
+        &:hover {
+            color: $bgcolor;
+        }
+    }
+    hr {
+        width: 100%;
+        height: 3px;
+        color: white;
+        &:hover {
+            color: $bgcolor;
+        }
+    }
+}
+}
+
+@media only screen and (max-width:1200px) {
+    .worktext {
+        font-size: 10px;    
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+    .worktext {
+        font-size: 9px;    
+    }
+}
+
+
+@media only screen and (max-width:800px) {
+    .worktext {
+        font-size: 7px;    
+    }
+}
+@media only screen and (max-width:700px) {
+    .worktext {
+        font-size: 3px;    
+    }
+}
+
+// sec2------------------------------------------------
+.sec2 {
+    .card {
+        img {
+            border-radius: 0 !important;
+        }
+        margin: 5px;
+        border-radius: 0;
+        p {
+            text-align: center;
+            font-size: x-large;
+        }
+        &:hover {
+            color: $bgcolor;
+        }
+    }
+    .textcard {
+        padding: 15px;
+    }
+}
+
+// sec3-----------------------------------------------------------
+.sec3 {
+    padding: 50px;
+    margin: $margen;
+    background-color: $bgcolor;
+    h5 {
+        font-size: 50px;
+        font-style: italic;
+        color: rgb(209, 170, 62);
+    }
+    p {
+        // font-size: 50px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .sec3 {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .sec3 {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .sec3 {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .sec3 {
+        padding: 20px;
+    }
+}
+
+// .sec4----------------------------------------------
+.sec4 {
+    padding: 60px;
+    .sec4Div {
+        margin: 10px;
+        padding: 0 !important;
+        position: relative;
+        &:hover .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            visibility: visible;
+            opacity: 1;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            // overflow: hidden;
+            margin: $margen;
+        }
+        .overlay {
+            text-align: center;
+            transition: 0.5s;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+    .btn {
+        border: none;
+        background-color: $bg;
+        text-align: center;
+        color: white;
+        border-radius: 0;
+        &:hover {
+            background-color: aliceblue;
+        }
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .sec4 {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .sec4 {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .sec4 {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .sec4 {
+        padding: 20px;
+    }
+}
+
+footer {
+    margin-top: 15px;
+    background-color: $bg;
+}

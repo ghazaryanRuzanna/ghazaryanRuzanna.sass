@@ -1,0 +1,17 @@
+header nav {
+  background-color: #364037 !important;
+  padding: 20px !important;
+}
+header nav ul li a {
+  color: white !important;
+}
+
+.blogsec1 .card {
+  margin: 5px 0;
+  border-radius: 0;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: #364037;
+}

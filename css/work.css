@@ -1,0 +1,71 @@
+header nav {
+  background-color: #364037 !important;
+  padding: 20px !important;
+}
+header nav ul li a {
+  color: white !important;
+}
+
+.worksec1 {
+  margin: 0;
+  padding: 80px;
+}
+.worksec1 .col-4 {
+  padding: 0 !important;
+  border: 1px solid black;
+  height: 500px;
+}
+.worksec1 .col-4 img {
+  width: 100%;
+  height: 100%;
+}
+.worksec1 .worktext {
+  background-color: #986c43;
+  color: white;
+  padding: 50px 220px;
+  height: 500px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .worktext {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .worktext {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .worktext {
+    font-size: 7px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .worktext {
+    font-size: 3px;
+  }
+}
+.worksec2 input {
+  width: 100%;
+}
+.worksec2 textarea {
+  width: 100%;
+}
+.worksec2 button {
+  padding: 15px;
+  color: white;
+  width: 100%;
+  background-color: #986c43;
+  border: none;
+}
+.worksec2 button:hover {
+  background-color: #364037;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: #364037;
+}

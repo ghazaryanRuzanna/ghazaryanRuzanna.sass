@@ -1,0 +1,190 @@
+header #myVideo {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 90vh;
+}
+header nav {
+  background-color: #364037 !important;
+  padding: 20px !important;
+}
+header nav ul li a {
+  color: white !important;
+}
+header .headerDiv {
+  background-color: #986c43;
+  padding: 20px;
+}
+header .headerDiv img {
+  width: 150px;
+  height: 150px;
+  border-radius: 79px;
+}
+@media only screen and (max-width: 1400px) {
+  header .headerDiv img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  header .headerDiv img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.sec1 {
+  padding: 20px;
+  color: white;
+}
+.sec1 .sec1Div {
+  background-color: #364037;
+  padding: 40px;
+  position: relative;
+  top: -100px;
+}
+.sec1 .sec1Div img {
+  width: 100%;
+}
+.sec1 h4 {
+  color: white;
+}
+.sec1 h4:hover {
+  color: #986c43;
+}
+.sec1 h3 {
+  color: white;
+}
+.sec1 h3:hover {
+  color: #986c43;
+}
+.sec1 hr {
+  width: 100%;
+  height: 3px;
+  color: white;
+}
+.sec1 hr:hover {
+  color: #986c43;
+}
+
+.sec2 .card {
+  margin: 5px;
+  border-radius: 0;
+}
+.sec2 .card img {
+  border-radius: 0 !important;
+}
+.sec2 .card p {
+  text-align: center;
+  font-size: x-large;
+}
+.sec2 .card:hover {
+  color: #986c43;
+}
+.sec2 .textcard {
+  padding: 15px;
+}
+
+.sec3 {
+  padding: 50px;
+  margin: 15px 0;
+  background-color: #986c43;
+}
+.sec3 h5 {
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(209, 170, 62);
+}
+.sec3 p {
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .sec3 {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sec3 {
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sec3 {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .sec3 {
+    padding: 20px;
+  }
+}
+.sec4 {
+  padding: 60px;
+}
+.sec4 .sec4Div {
+  margin: 10px;
+  padding: 0 !important;
+  position: relative;
+}
+.sec4 .sec4Div:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: visible;
+  opacity: 1;
+}
+.sec4 .sec4Div img {
+  width: 100%;
+  height: 100%;
+  margin: 15px 0;
+}
+.sec4 .sec4Div .overlay {
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+}
+.sec4 .btn {
+  border: none;
+  background-color: #364037;
+  text-align: center;
+  color: white;
+  border-radius: 0;
+}
+.sec4 .btn:hover {
+  background-color: aliceblue;
+}
+
+@media only screen and (max-width: 900px) {
+  .sec4 {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sec4 {
+    padding: 40px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sec4 {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .sec4 {
+    padding: 20px;
+  }
+}
+footer {
+  margin-top: 15px;
+  background-color: #364037;
+}
